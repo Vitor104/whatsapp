@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './intro.module.css';
-import IntroWindow from "../introWindow/introWindow";
+
 
 function Intro () {
     return (
@@ -11,8 +11,12 @@ function Intro () {
                         <h1>NO</h1>                        
                 </div>
             </div>
-            <IntroWindow />            
-            <div class='row bg-gradient-secondary'></div>
+             <div className="row">
+                <div className="col bg-light h-75 w-75 position-absolute">
+                    <h2>eafafa</h2>
+                </div>
+            </div>        
+            
         </div>
     )
 }
