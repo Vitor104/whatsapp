@@ -7,6 +7,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Intro from './components/intro/intro';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const router = createBrowserRouter([
   {
