@@ -1,3 +1,51 @@
-.bg-secondary {
-    background-color: aliceblue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c8c9c9;
+    height: 90%;
+}
+
+.top {
+    height: 15em;
+    background-color: #00a884;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+}
+
+.name {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+
+.window {
+    height: 20em;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    top: 9em;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 10px;
 }
