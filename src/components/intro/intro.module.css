@@ -9,6 +9,7 @@
     flex-direction: column;
     background-color: #c8c9c9;
     height: 90%;
+    color: black;
 }
 
 .top {
@@ -48,4 +49,29 @@
     align-self: center;
     border: 1px solid black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*    */
+
+.inicio {
+    width: 90%;
+    border: 1px solid #d1d7db;
+    height: 10em;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textoh3 {
+    font-size: 1.0625rem;
+}
+
+.texto {
+    font-size: .875rem;
 }
