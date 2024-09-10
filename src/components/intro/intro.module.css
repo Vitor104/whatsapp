@@ -38,10 +38,12 @@
 }
 
 
+/*  */
+
 .window {
     height: 20em;
     width: 90%;
-    height: 90%;
+    height: 50em;
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
@@ -53,9 +55,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 }
 
-/*    */
+
 
 .inicio {
     width: 90%;
@@ -74,4 +77,22 @@
 
 .texto {
     font-size: .875rem;
+}
+
+.informacoes {
+    width: 90%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 auto;
 }
