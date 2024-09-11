@@ -96,3 +96,14 @@
     gap: 1em;
     margin: 0 auto;
 }
+
+@media only screen and (min-width: 1400px) {
+    .window {
+        width: 70%;
+        height: 50em;
+    }
+
+    .logoAndName {
+        width: 70%;
+    }
+}

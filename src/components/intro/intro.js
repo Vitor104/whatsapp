@@ -23,12 +23,12 @@ function Intro () {
                             <p className={styles.texto}>Faça ligações, use o compartilhamento de tela e tenha uma experiência de uso mais rápida com o novo app para Windows.</p>
                     </section>
                     <section>
-                        <button type="button" href='#' class="btn btn-success btn-lg w-100">Baixar o app</button>
+                        <button type="button" href='#' class="btn btn-success btn-lg w-100">Entrar</button>
                     </section>
                 </div>
                 <div className={styles.informacoes}>
                     <section>
-                        <h3>Use o WhatsApp no seu computador</h3>
+                        <h3 class="text-secondary font-weight-normal">Use o WhatsApp no seu computador</h3>
                     </section>
                     <section>
                         <ol className={styles.list}>
