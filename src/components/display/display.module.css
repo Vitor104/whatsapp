@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -12,5 +13,27 @@
     align-items: center;
     margin: 20px;
     background-color: red;
-    height: 20em;
+    height: 44em;
+    display: flex;
+}
+
+.personal {
+    width: 5%;
+    background-color: blue;
+    height: 100%;
+}
+
+.contatos {
+    width: 40%;
+    background-color: green;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.conteudo {
+    width: 55%;
+    background-color: yellow;
+    height: 100%;
 }
