@@ -8,13 +8,17 @@ import {
 } from "react-router-dom";
 import Intro from './components/intro/intro';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Display from './components/display/display';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Intro />,
   },
+  {
+    path: "/display",
+    element: <Display />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

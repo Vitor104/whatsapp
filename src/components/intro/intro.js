@@ -1,6 +1,8 @@
 import React from "react";
 import styles from './intro.module.css';
 import logo from './whatsapp.png';
+import { Link } from "react-router-dom";
+import Display from "../display/display";
 
 function Intro () {
     return (
@@ -23,7 +25,8 @@ function Intro () {
                             <p className={styles.texto}>Faça ligações, use o compartilhamento de tela e tenha uma experiência de uso mais rápida com o novo app para Windows.</p>
                     </section>
                     <section>
-                        <button type="button" href='#' class="btn btn-success btn-lg w-100">Entrar</button>
+                        <Link to='/display' className='btn btn-success btn-lg w-100'>Baixar</Link>
+                        
                     </section>
                 </div>
                 <div className={styles.informacoes}>
