@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './search.module.css'
+//API KEY: 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
 
 function Search() {
     return (
