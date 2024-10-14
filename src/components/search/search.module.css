@@ -36,4 +36,5 @@
 
 .figures {
     display: flex;
+    cursor: pointer;
 }
